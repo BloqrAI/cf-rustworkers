@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.29.6",
+    "@changesets/cli": "^3.0.3",
     "@cloudflare/workers-types": "^4.20250826.0"
   },
   "name": "workers-rs",
@@ -15,10 +15,10 @@
   "homepage": "https://github.com/cloudflare/workers-rs#readme",
   "devDependencies": {
     "@types/node": "^24.0.1",
-    "miniflare": "^4.20260424.0",
+    "miniflare": "^4.20260730.0",
     "typescript": "^5.8.3",
     "uuid": "^14.0.0",
-    "vitest": "^3.2.6"
+    "vitest": "^5.0.5"
   },
   "scripts": {
     "build": "cd wasm-bindgen && cargo build -p wasm-bindgen-cli --bin wasm-bindgen && cd .. && cargo build -p worker-build",
