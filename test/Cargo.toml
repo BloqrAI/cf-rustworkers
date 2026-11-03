@@ -46,7 +46,7 @@ regex = "1.8.4"
 serde.workspace = true
 serde_json.workspace = true
 worker.workspace = true
-rand = "0.9.1"
+rand = "0.10.1"
 uuid = { version = "1.17", features = ["v4", "serde", "js"] }
 serde-wasm-bindgen.workspace = true
 wasm-bindgen.workspace = true
